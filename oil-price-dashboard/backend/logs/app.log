@@ -1,0 +1,10 @@
+2026-11-16 15:57:55,853 - INFO - Logging initialized.
+2026-11-16 15:57:55,854 - INFO - Loading LSTM model and scalers...
+2026-11-16 15:57:55,933 - ERROR - Error loading model or scalers: [Errno 2] Unable to synchronously open file (unable to open file: name = 'models/lstm_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2026-11-16 15:57:55,933 - WARNING - Model or scalers not found. Predictions will not work.
+2026-11-16 15:57:55,934 - INFO - Loading datasets...
+2026-11-16 15:57:55,940 - ERROR - Error loading datasets: [Errno 2] No such file or directory: 'data\\BrentOilPrices.csv'
+2026-11-16 15:57:55,940 - WARNING - Dataset not found. Historical data and event analysis will not work.
+2026-11-16 15:57:55,977 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-11-16 15:57:55,977 - INFO - [33mPress CTRL+C to quit[0m
